@@ -1,8 +1,9 @@
 package com.api.albion.model;
 
 public class Item {
+    String itemId;
     String city;
-    String uniqueName;
+
     int price;
 
     int quality;
@@ -13,4 +14,8 @@ public class Item {
     int sellMaxDate;
     int buyMin;
     int buyMinDate;
+
+    int buyMax;
+    int buyMaxDate;
+
 }
