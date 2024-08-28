@@ -1,2 +1,4 @@
-package com.api.albion;public enum LOCALIZATION {
+package com.api.albion;
+
+public enum LOCALIZATION {
 }

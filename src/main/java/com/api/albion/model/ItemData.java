@@ -3,6 +3,8 @@ package com.api.albion.model;
 import com.api.albion.LOCALIZATION;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.Map;
+
 public class ItemData {
     @JsonProperty("LocalizationNameVariable")
     private String localizationNameVariable;
@@ -10,10 +12,10 @@ public class ItemData {
     @JsonProperty("LocalizationDescriptionVariable")
     private String localizationDescriptionVariable;
     @JsonProperty("LocalizedNames")
-    private LOCALIZATION localizedNames;
+    private Map<LOCALIZATION, String> localizedNames;
 
     @JsonProperty("LocalizedDescriptions")
-    private LOCALIZATION localizedDescriptions;
+    private Map<LOCALIZATION, String> localizedDescriptions;
     @JsonProperty("Index")
     private int index;
 
